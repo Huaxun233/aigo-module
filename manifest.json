@@ -1,12 +1,12 @@
 {
   "id": "aigo",
   "name": "爱果短剧",
-  "version": "1.1.0",
-  "description": "aigo.me 爱果短剧（黄果短剧/爱果原创/魔改短剧），含搜索；分集匿名直连播放，含锁定分集多形态重试",
+  "version": "1.3.0",
+  "description": "aigo.me 爱果短剧（红果短剧爱果原创/魔改短剧），含搜索；分集匿名直连播放，支持注册/登录解锁全剧集，无账号时内置备用账号兜底",
   "runtime": "js",
   "api": 1,
   "adult": true,
   "hosts": ["aigo.me", "bucket.usemarkt.xyz"],
-  "capabilities": ["search"],
+  "capabilities": ["search", "account"],
   "allowEmptyCatalog": false
 }
